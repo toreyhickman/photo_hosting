@@ -22,7 +22,7 @@ require 'erb'
 
 require 'carrierwave'
 require 'carrierwave/processing/mini_magick'
-'carrierwave/orm/activerecord'
+require 'carrierwave/orm/activerecord'
 
 
 # Some helper constants for path-centric logic
